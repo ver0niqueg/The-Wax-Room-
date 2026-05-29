@@ -1,0 +1,128 @@
+.detail-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.back-btn {
+    background: none;
+    border: 1px solid rgba(167,139,250,0.2);
+    color: #a78bfa;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
+    transition: background 0.2s;
+}
+
+.back-btn:hover {
+    background: rgba(167,139,250,0.1);
+}
+
+.detail-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.detail-image img{
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.detail-tags {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.detail-info h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.detail-info h2 {
+  font-size: 18px;
+  color: #a78bfa;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.detail-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 32px;
+  padding: 20px;
+  background: rgba(167,139,250,0.05);
+  border: 1px solid rgba(167,139,250,0.1);
+  border-radius: 12px;
+}
+
+.meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.meta-label {
+    color: #6b7db3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.meta-value {
+    color: #e2e0e8;
+    font-weight: 500;
+}
+
+.detail-price {
+  font-size: 42px;
+  font-weight: 700;
+  color: #a78bfa;
+  margin-bottom: 24px;
+}
+
+.add-to-cart {
+  width: 100%;
+  background: #a78bfa;
+  border: none;
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.add-to-cart:hover {
+  background: #9061f9;
+  transform: translateY(-1px);
+}
+
+.not-found {
+  text-align: center;
+  padding: 60px;
+  color: #6b7db3;
+}
+
+.add-to-cart.in-cart {
+    background: #34d399;
+    cursor: not-allowed; 
+}
+
+@media (max-width: 768px) {
+    .detail-container { grid-template-columns: 1fr; }
+    .detail-page { padding: 20px; }
+}
