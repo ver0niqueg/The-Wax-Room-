@@ -27,6 +27,8 @@ A responsive React marketplace where indepent record stores sell their vinyl col
 - **CSS** — custom styling
 
 ## Project Structure
+
+```
 src/
 ├── components/
 │   ├── VinylCard.jsx       # Product card
@@ -38,6 +40,7 @@ src/
 │   └── vinyls.js           # Product data
 ├── App.jsx                 # Main component & routing
 └── main.jsx                # Entry point
+```
 
 ---
 
