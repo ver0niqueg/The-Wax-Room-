@@ -1,24 +1,59 @@
-# React + Vite
+# The Wax Room 🎵
+### Independent Vinyl Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React marketplace where indepent record stores sell their vinyl collection. Built as a portfolio project to demonstrate React, Javascript and UI/UX skills.
 
-Currently, two official plugins are available:
+🔗 <lien vercel>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search by album title or artist
+- 🎛️ Filter by store, genre and condition
+- 💰 Sort by price (ascending / descending)
+- 📄 Product detail page with full information
+- 🛒 Shopping cart with add/remove and total price
+- 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
 
+- **React** — components, hooks (useState, useEffect, useContext)
+- **React Router** — client-side navigation
+- **Context API** — global cart state management
+- **Vite** — development environment
+- **CSS** — custom styling
 
-✅ Grid de vinyles responsive
-✅ Filtres (store, genre, condition)
-✅ Recherche par artiste/titre
-✅ Tri par prix
-✅ Page détail avec React Router
-✅ Panier avec Context React
+## Project Structure
+src/
+├── components/
+│   ├── VinylCard.jsx       # Product card
+│   ├── VinylDetail.jsx     # Product detail page
+│   └── Filters.jsx         # Search & filter bar
+├── context/
+│   └── CartContext.jsx     # Global cart state
+├── data/
+│   └── vinyls.js           # Product data
+├── App.jsx                 # Main component & routing
+└── main.jsx                # Entry point
+
+---
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone  https://github.com/ver0niqueg/The-wax-room.git
+
+# Install dependencies
+cd The-wax-room
+npm install
+
+# Start dev server
+npm run dev
+```
+
+---
+**Véronique Galmiche**
