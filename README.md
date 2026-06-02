@@ -3,7 +3,7 @@
 
 A responsive React marketplace where indepent record stores sell their vinyl collection. Built as a portfolio project to demonstrate React, Javascript and UI/UX skills.
 
-🔗 <lien vercel>
+🔗 [<lien vercel>](https://the-wax-room.vercel.app/)
 
 ---
 
