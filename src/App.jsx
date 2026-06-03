@@ -29,7 +29,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={
-        <div>
+        <div className="app-container">
           <header className="header">
             <div>
               <h1>The Wax Room</h1>
@@ -90,9 +90,13 @@ function App() {
                   <VinylCard key={vinyl.id} vinyl={vinyl} />
                 ))}
               </div>
-
             }
           </div>
+
+          <footer className="footer">
+            <div className="footer-text">The Wax Room · 2026</div>
+            <div className="footer-text">Built with React by Véronique Galmiche</div>
+          </footer>
         </div>
       } />
       <Route path="/vinyl/:id" element={<VinylDetail />} />

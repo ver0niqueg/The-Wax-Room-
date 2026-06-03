@@ -19,7 +19,7 @@ function VinylCard({ vinyl }) {
                         <span className="store">{vinyl.store} </span>
                         <span className="year">{vinyl.year}</span>
                     </div>
-                    <span className="price">{vinyl.price}</span>
+                    <span className="price">{vinyl.price}€</span>
                 </div>
             </div>
         </div>
