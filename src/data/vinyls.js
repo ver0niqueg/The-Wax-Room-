@@ -89,8 +89,19 @@ export const vinyls = [
         year: 2001,
         image: "https://cdn-images.dzcdn.net/images/cover/1645f3b192206dc412353b06491290d4/500x500.jpg"
     },
+    {
+        id: 9,
+        title: "OK computer",
+        artist: "Radiohead",
+        genre: "Alternative Rock",
+        price: 36,
+        condition: "Very good condition",
+        store: "Rockerill",
+        year: 1997,
+        image: "https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png"
+    }
 ]
 
 export const stores = ["All", "Born Bad Records", "Gibert Joseph", "Rockerill", "Deep Inside", "Diggers Factory"]
-export const genres = ["All", "Rock", "Blues/Jazz", "Metal", "Electronic", "Hip-Hop"]
+export const genres = ["All", "Rock", "Blues/Jazz", "Metal", "Electronic", "Hip-Hop", "Alternative Rock"]
 export const conditions = ["All", "Mint condition", "Like new", "Excellent condition", "Very good condition", "Good condition"]
