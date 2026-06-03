@@ -1,4 +1,4 @@
-# The Wax Room 🎵
+# The Wax Room
 ### Independent Vinyl Marketplace
 
 A responsive React marketplace where indepent record stores sell their vinyl collection. Built as a portfolio project to demonstrate React, Javascript and UI/UX skills.
@@ -9,12 +9,12 @@ A responsive React marketplace where indepent record stores sell their vinyl col
 
 ## Features
 
-- 🔍 Search by album title or artist
-- 🎛️ Filter by store, genre and condition
-- 💰 Sort by price (ascending / descending)
-- 📄 Product detail page with full information
-- 🛒 Shopping cart with add/remove and total price
-- 📱 Fully responsive design
+- Search by album title or artist
+- Filter by store, genre and condition
+- Sort by price (ascending / descending)
+- Product detail page with full information
+- Shopping cart with add/remove and total price
+- Fully responsive design
 
 ---
 
