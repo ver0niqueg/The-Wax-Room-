@@ -9,9 +9,10 @@ import { useCart } from './context/CartContext.jsx'
 function App() {
   const [filters, setFilters] = useState({ store: 'All', genre: 'All', condition: 'All'})
   const [search, setSearch] = useState('')
-  const [showCart, setShowCart] = useState(false)
-  const { cart, removeFromCart, total } = useCart()
   const [sort, setSort] = useState('default')
+  const [showCart, setShowCart] = useState(false)
+
+  const { cart, removeFromCart, total } = useCart()
 
   const filtered = vinyls.filter(v => {
     return (
@@ -74,7 +75,7 @@ function App() {
               onChange={e => setSearch(e.target.value)}
             />
             <Filters filters={filters} setFilters={setFilters} />
-            <select valut={sort} onChange={e => setSort(e.target.value)}>
+            <select value={sort} onChange={e => setSort(e.target.value)}>
                 <option value='default'>Sort by</option>
                 <option value='price-asc'>Price ↑</option>
                 <option value='price-desc'>Price ↓</option>
