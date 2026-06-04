@@ -55,13 +55,13 @@
 }
 
 .genre {
-    background: rgba(99,179,255,0.15);
-    color: #63b3ff;
+    background: rgba(75, 104, 84, 0.129);
+    color: #72b598;
 }
 
 .condition {
-    background: rgba(52,211,153,0.15);
-    color: #34d399;
+    background: rgba(212, 121, 173, 0.15);
+    color: #e25b72;
 }
 
 .vintyl-footer {
@@ -82,7 +82,7 @@
 .price {
     font-size: 16px;
     font-weight: 600;
-    color: #a78bfa;
+    color: #ac9cdd;
 }
 
 .year {

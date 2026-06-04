@@ -51,29 +51,30 @@
 }
 
 .detail-info h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 36px;
-  color: white;
-  line-height: 1.2;
-  margin-bottom: 8px;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 8px;
 }
 
 .detail-info h2 {
-  font-size: 18px;
-  color: #a78bfa;
-  font-weight: 400;
-  margin-bottom: 32px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    color: #a78bfa;
+    font-weight: 400;
+    margin-bottom: 32px;
 }
 
 .detail-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-bottom: 32px;
-  padding: 20px;
-  background: rgba(167,139,250,0.05);
-  border: 1px solid rgba(167,139,250,0.1);
-  border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+    padding: 20px;
+    background: rgba(167,139,250,0.05);
+    border: 1px solid rgba(167,139,250,0.1);
+    border-radius: 12px;
 }
 
 .meta-row {
@@ -96,39 +97,39 @@
 }
 
 .detail-price {
-  font-size: 28px;
-  font-weight: 600;
-  color: #a78bfa;
-  margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #a78bfa;
+    margin-bottom: 24px;
 }
 
 .add-to-cart {
-  width: 100%;
-  background: #a78bfa;
-  border: none;
-  color: white;
-  padding: 16px;
-  border-radius: 12px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  font-family: 'Space Grotesk', sans-serif;
-  transition: background 0.2s, transform 0.1s;
+    width: 100%;
+    background: #ac9cdd;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Space Grotesk', sans-serif;
+    transition: background 0.2s, transform 0.1s;
 }
 
 .add-to-cart:hover {
-  background: #9061f9;
-  transform: translateY(-1px);
+    background: #a78bfa;
+    transform: translateY(-1px);
 }
 
 .not-found {
-  text-align: center;
-  padding: 60px;
-  color: #6b7db3;
+    text-align: center;
+    padding: 60px;
+    color: #6b7db3;
 }
 
 .add-to-cart.in-cart {
-    background: #34d399;
+    background: #72b598;;
     cursor: not-allowed; 
 }
 
