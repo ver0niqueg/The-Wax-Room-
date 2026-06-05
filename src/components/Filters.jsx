@@ -3,7 +3,7 @@ import { stores, genres, conditions } from '../data/vinyls.js'
 function Filters({ filters, setFilters }) {
     return (
         <div className="filters">
-            <select // composant pour choisir une valeur
+            <select
                 value={filters.store}
                 onChange={e => setFilters({ ...filters, store: e.target.value })}
             >

@@ -6,10 +6,10 @@ import './VinylDetail.css'
 function VinylDetail() {
     const { id } = useParams()
     const navigate = useNavigate()
-    const { addToCart,cart } = useCart()
+    const { addToCart, cart } = useCart()
     console.log('cart', cart)
 
-    const vinyl = vinyls.find(v => v.id === parseInt(id)) // checher un objet précis dans un tableau
+    const vinyl = vinyls.find(v => v.id === parseInt(id))
 
     if (!vinyl) return <div className="not-found">Record not found</div>
 

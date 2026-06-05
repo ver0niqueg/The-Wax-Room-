@@ -1,5 +1,3 @@
-// I create data of vinyls
-
 export const vinyls = [
     {
         id: 1,
