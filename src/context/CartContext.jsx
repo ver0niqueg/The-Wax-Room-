@@ -1,4 +1,5 @@
 import { createContext, useContext, useState } from 'react'
+import VinylDetail from '../components/VinylDetail'
 
 const CartContext = createContext()
 
@@ -7,8 +8,8 @@ export function CartProvider({ children }) {
 
     const addToCart = (vinyl) => {
         setCart(prev => {
-            const exists = prev.find(item =>item.id === vinyl.id)
-            if (exists) return prev // déjà dans le panier
+            if (prev.find(item => item.id === vinyl.id))
+                return prev
             return [...prev, vinyl]
         })
     }
