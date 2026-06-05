@@ -7,7 +7,6 @@ function VinylDetail() {
     const { id } = useParams()
     const navigate = useNavigate()
     const { addToCart, cart } = useCart()
-    console.log('cart', cart)
 
     const vinyl = vinyls.find(v => v.id === parseInt(id))
 
