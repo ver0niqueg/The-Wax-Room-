@@ -2,6 +2,9 @@
     max-width: 1000px;
     margin: 0 auto;
     padding: 40px;
+    background: rgba(10, 5, 20, 0.55);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
 }
 
 .back-btn {
